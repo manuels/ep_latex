@@ -1,0 +1,12 @@
+{
+  "name": "ep_latex",
+  "version": "0.0.1",
+  "author": {
+    "name": "Manuel Schölling"
+  },
+  "description": "Compile LaTeX in etherpads to PDF",
+  "main": "main.js",
+  "_id": "ep_latex@0.0.1",
+  "readme": "ERROR: No README.md file found!",
+  "_from": "ep_latex"
+}
