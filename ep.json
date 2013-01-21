@@ -1,12 +1,12 @@
 {
   "parts": [
     {
-      "name": "LaTeX",
+      "name": "ep_latex",
       "hooks": {
         "eejsBlock_editbarMenuLeft": "ep_latex/server_main:createIcon"
       },
       "client_hooks": {
-        "documentReady": "ep_latex/client_main:documentReady"
+        "documentReady": "ep_latex/static/js/client:documentReady"
       }
     }
   ]

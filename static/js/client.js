@@ -1,10 +1,14 @@
 var root = '../..';
 
+/* the below 3 lines break stuff */
+/*
 $.runScript(root+'texlive/website/pdftex.js/release/pdftex-webworker.js');
 $.runScript(root+'texlive/website/pdftex.js/release/pdftex.js');
 $.runScript(root+'texlive/website/texlive.js');
+*/
 
 exports.documentReady = function(hook, context){
+
   var button = $('#compileLatex');
   var mode = 'compile';
 
