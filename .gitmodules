@@ -1,3 +1,3 @@
 [submodule "texlive"]
-	path = texlive
+	path = static/js/texlive
 	url = git://github.com/manuels/texlive.js.git

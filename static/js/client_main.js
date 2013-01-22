@@ -1,12 +1,12 @@
 var root = '../..';
 
-$.runScript(root+'texlive/website/pdftex.js/release/pdftex-webworker.js');
-$.runScript(root+'texlive/website/pdftex.js/release/pdftex.js');
-$.runScript(root+'texlive/website/texlive.js');
-
 exports.documentReady = function(hook, context){
   var button = $('#compileLatex');
   var mode = 'compile';
+
+  jQuery.getScript(root+'texlive/website/pdftex.js/release/pdftex-webworker.js');
+  jQuery.getScript(root+'texlive/website/pdftex.js/release/pdftex.js');
+  jQuery.getScript(root+'texlive/website/texlive.js');
 
   var pdf;
   button.click(function() {
