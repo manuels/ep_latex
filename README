@@ -1,0 +1,3 @@
+This is a plugin to compile Etherpad-lite pads that contain (only) LaTeX in the browser.
+
+Note: You better set 'minify' to false in Etherpad's settings.json, otherwise it will minify huge files that are already minified!
